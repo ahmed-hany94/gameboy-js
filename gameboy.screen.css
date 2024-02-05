@@ -1,0 +1,34 @@
+/* ===== */
+/* Reset */
+/* ===== */
+
+html,body,div,p,h1,h2,h3,h4,h5,h6,figure,
+ul,ol,li,dl,dt,dd,form,fieldset,caption,
+legend,table,tr,td,th,address,blockquote,img {
+  margin: 0;
+  padding: 0;
+}
+
+body *,*:after,*:before {
+  box-sizing: border-box;
+}
+
+html,body {
+  height: 100%;
+}
+
+/* ==== */
+/* main */
+/* ==== */
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+canvas {
+  border-radius: 0.4rem;
+  border: 2px solid rgb(153, 153, 24);
+  margin: 1rem;
+}
